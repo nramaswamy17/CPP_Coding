@@ -1,0 +1,11 @@
+build/*
+
+01_Memory_and_Core_CPP/Pointers/build/*
+01_Memory_and_Core_CPP/Move_semantics/build/*
+01_Memory_and_Core_CPP/Templates/build/*
+
+
+02_Data_Structures
+03_Graph_Structures
+04_Algorithms
+05_Concurrency
