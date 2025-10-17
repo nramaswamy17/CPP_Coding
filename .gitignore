@@ -1,8 +1,6 @@
-build/*
+.vscode/
 
-01_Memory_and_Core_CPP/Pointers/build/*
-01_Memory_and_Core_CPP/Move_semantics/build/*
-01_Memory_and_Core_CPP/Templates/build/*
+**/build/
 
 
 02_Data_Structures
