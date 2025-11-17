@@ -1,0 +1,34 @@
+Days 1-3 (Mon-Wed): BFS Reinforcement + Foundations
+Monday (BFS + Array Reinforcement)
+
+LeetCode 102: Binary Tree Level Order Traversal (BFS, solidify it)
+LeetCode 1091: Shortest Path in Binary Matrix (BFS on grid)
+LeetCode 88: Merge Sorted Array (array manipulation)
+
+Tuesday (Linked Lists + Hash Maps)
+
+Implement: Singly Linked List (add, remove, display)
+LeetCode 206: Reverse Linked List
+LeetCode 141: Linked List Cycle
+LeetCode 242: Valid Anagram (hash map)
+LeetCode 1: Two Sum (reinforcement)
+
+Wednesday (Introduce DFS + Stack Patterns)
+
+LeetCode 20: Valid Parentheses (stack, simpler recursion concept)
+LeetCode 200: Number of Islands (DFS - your first one, but now you can compare to BFS)
+LeetCode 21: Merge Two Sorted Lists (linked list pattern)
+
+
+Days 4-5 (Thu-Fri): Graph Problems + Mock
+Thursday
+
+LeetCode 207: Course Schedule (topological sort, graph traversal)
+LeetCode 130: Surrounded Regions (DFS reinforcement)
+LeetCode 133: Clone Graph (DFS practice)
+
+Friday (Light + Mock)
+
+LeetCode 417: Pacific Atlantic Water Flow (multi-source DFS)
+30-min mock: Pick one from this week's problems and time yourself
+
