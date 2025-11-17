@@ -87,28 +87,29 @@ int shortest_path(vector<vector<int>>& grid, pair<int,int> start, pair<int,int> 
             inBounds = inBounds && (neighbor.second < grid[0].size() && neighbor.second >= 0);
 
             if (inBounds) {
-                bool visited = visited[neighbor.first][neighbor.second] == false;
+                //cout << neighbor.first;
+                bool isVisited = visited[neighbor.first][neighbor.second] == false;
                 bool isZero = grid[neighbor.first][neighbor.second] == 0;
 
-                if(visited && isZero) {
-                    visited[neighbor.first][neighbor.second] = true;
+                if(isVisited && isZero) {
                     q.push({neighbor, distance+1});
+                    visited[neighbor.first][neighbor.second] = true;
                 }
             }
         }
     }
-
-}
+    return -1; 
+} 
 
 int main() {
     vector<vector<int>> grid = {
-        {0, 0, 1, 0},
-        {0, 1, 0, 0},
-        {0, 0, 0, 1},
-        {1, 0, 0, 0}
+        {0, 1, 1},
+        {0, 1, 0},
+        {0, 0, 0}
     };
     pair<int,int> start = {0,0};
-    pair<int,int> target = {3,3};
+    pair<int,int> target = {2,2};
     int dist = shortest_path(grid, start, target);
+    cout << "Distance: " << dist << endl;
     return 0;
-}
+} 
